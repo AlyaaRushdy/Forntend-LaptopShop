@@ -57,14 +57,16 @@ a{
     width: 45rem;
     float: right;
 }
+
 .accessoriesBanner .content{
     padding: 2rem 3rem;
-    float: right;
-    width: 30rem;
+    margin-left: 5rem;
+    width: 30%;
+    display: inline-block;
 }
 .accessoriesBanner img{
     width: 35rem;
-    rotate: calc(250deg);
+    rotate: calc(-25deg);
     padding-right: 5rem;
 }
 .homepage-section .shoppingButton{
