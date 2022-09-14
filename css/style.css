@@ -1,6 +1,7 @@
 body{
     background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(215,208,208,1) 100%); 
+    background: linear-gradient(150deg, rgba(0,0,0,1) 0%, rgba(215,208,208,1) 100%) no-repeat ;
+    min-height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul{
@@ -10,6 +11,8 @@ a{
     text-decoration: none;
     color: white;
 }
+
+/* Navbar */
 .headerLogo{
     display: inline-block;
 }
@@ -37,21 +40,38 @@ a{
 .myNavbar ul li a{
     font-size: 1.25rem;
 }
-.hero{
-    padding: 3rem 2rem;
-}
-.hero .content{
+
+/* Homepage sections */
+.homepage-section{
     padding: 3rem 2rem;
     color: white;
     line-height: 5rem;
-    letter-spacing: .1rem;
+    letter-spacing: .125rem;
     text-transform: capitalize;
     font-variant: small-caps;
 }
-.hero h1{
-    
+.laptopBanner .content{
+    padding: 3rem 2rem;
 }
-.hero img{
+.laptopBanner img{
     width: 45rem;
     float: right;
+}
+.accessoriesBanner .content{
+    padding: 2rem 3rem;
+    float: right;
+    width: 30rem;
+}
+.accessoriesBanner img{
+    width: 35rem;
+    rotate: calc(250deg);
+    padding-right: 5rem;
+}
+.homepage-section .shoppingButton{
+    padding: 1rem;
+    font-size: 1.15rem;
+    background-color: black;
+}
+.contactUs{
+    margin-top: 7rem;
 }
