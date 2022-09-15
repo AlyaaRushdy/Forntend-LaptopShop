@@ -1,13 +1,13 @@
 body{
     background: rgb(0,0,0);
     background: linear-gradient(150deg, rgba(0,0,0,1) 0%, rgba(215,208,208,1) 100%) no-repeat ;
-    min-height: 100%;
+    min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul{
     list-style: none;
 }
-a{
+a, button{
     text-decoration: none;
     color: white;
 }
@@ -74,6 +74,30 @@ a{
     font-size: 1.15rem;
     background-color: black;
 }
+
 .contactUs{
-    margin-top: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: normal;
+    text-align: center;
 }
+.contactUs h2{
+    margin-bottom: 3rem;
+}
+.contactUs .inputField{
+    width: 40rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.contactUs .shoppingButton{
+    width: 15rem;
+    margin-top: 1rem;
+    border: none;
+    letter-spacing: .125rem;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    cursor: pointer;
+}
+
+/* Laptop Page */
